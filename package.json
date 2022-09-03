@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.0.0"
+  }
+}

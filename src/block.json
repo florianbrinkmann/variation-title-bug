@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "test/variation-bug",
+  "title": "Variation title bug",
+  "attributes": {
+    "isVariation": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "variations": [
+    {
+      "name": "one-variation",
+      "title": "One variation",
+      "attributes": {
+        "isVariation": true
+      }
+    }
+  ],
+  "editorScript": "file:./index.js"
+}

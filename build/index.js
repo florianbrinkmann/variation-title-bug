@@ -1,0 +1,1 @@
+!function(){"use strict";var t=window.wp.element,e=window.wp.blocks,i=window.wp.blockEditor;(0,e.registerBlockType)("test/variation-bug",{edit:e=>{const o=(0,i.useBlockProps)(),r=e.attributes.isVariation;return(0,t.createElement)("div",o,r?"Variation!":"Default")}})}();
